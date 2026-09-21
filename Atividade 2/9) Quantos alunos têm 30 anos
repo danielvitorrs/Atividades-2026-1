@@ -1,9 +1,0 @@
-contador = 0
-n = int(input("Quantidade: "))
-
-for i in range(n):
-    idade = int(input("Idade: "))
-    if idade == 30:
-        contador += 1
-
-print("Quantidade:", contador)

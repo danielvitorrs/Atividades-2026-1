@@ -1,7 +1,0 @@
-soma = 0
-
-for i in range(50):
-    idade = int(input("Idade: "))
-    soma += idade
-
-print("Média:", soma / 50)
