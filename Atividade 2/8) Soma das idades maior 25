@@ -1,0 +1,9 @@
+soma = 0
+n = int(input("Quantidade: "))
+
+for i in range(n):
+    idade = int(input("Idade: "))
+    if idade > 25:
+        soma += idade
+
+print("Soma:", soma)
