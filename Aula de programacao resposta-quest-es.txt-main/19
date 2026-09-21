@@ -1,0 +1,2 @@
+19. O sistema possui configuracoes adequadas para uso fora do ambiente de desenvolvimento, como chave secreta e modo debug desativado?
+R: Para produção, é necessário desativar o modo debug e configurar uma chave secreta segura.

@@ -1,0 +1,2 @@
+3. Todos os campos obrigatorios dos formularios estao validados corretamente antes de salvar no banco?
+R: Sim. Os campos obrigatórios usam validação nos formulários antes de salvar.

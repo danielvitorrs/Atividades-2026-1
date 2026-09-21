@@ -1,0 +1,2 @@
+8. O metodo de remover dados do aluno em Aluno.py esta coerente com a regra de negocio definida para o projeto?
+R: Sim. O método remover_dados remove os dados do aluno e desfaz seus vínculos com disciplinas.

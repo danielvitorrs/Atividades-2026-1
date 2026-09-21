@@ -1,0 +1,2 @@
+18. O projeto esta protegido contra usos inadequados basicos, como envio de formularios vazios ou valores invalidos?
+R: Sim. O sistema possui validações básicas contra formulários vazios e dados duplicados.

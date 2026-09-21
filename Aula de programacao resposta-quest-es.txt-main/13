@@ -1,0 +1,2 @@
+13. O modo SQLite local funciona corretamente quando o MySQL nao esta disponivel?
+R: Sim. Quando o MySQL não está disponível, o sistema usa SQLite local.

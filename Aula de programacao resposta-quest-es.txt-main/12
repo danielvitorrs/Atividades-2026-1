@@ -1,0 +1,2 @@
+12. O banco MySQL pode ser criado corretamente a partir do arquivo schema.sql em um ambiente novo?
+R: Sim. O banco MySQL pode ser criado usando o arquivo schema.sql.
