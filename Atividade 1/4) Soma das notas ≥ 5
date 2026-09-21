@@ -1,0 +1,9 @@
+soma = 0
+n = int(input("Quantidade de alunos: "))
+
+for i in range(n):
+    nota = float(input("Nota: "))
+    if nota >= 5:
+        soma += nota
+
+print("Soma:", soma)

@@ -1,0 +1,8 @@
+soma = 0
+n = int(input("Quantidade: "))
+
+for i in range(n):
+    nota = float(input("Nota: "))
+    soma += nota
+
+print("Média:", soma / n)

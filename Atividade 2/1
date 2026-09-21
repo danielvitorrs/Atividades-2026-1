@@ -1,0 +1,104 @@
+# ==========================================
+# ORIENTAÇÃO A OBJETOS EM PYTHON
+# ==========================================
+
+# ------------------------------------------
+# INTRODUÇÃO
+# ------------------------------------------
+print("=== INTRODUÇÃO ===")
+print("Orientação a Objetos organiza o código em classes e objetos.\n")
+
+
+# ------------------------------------------
+# CLASSES E OBJETOS
+# ------------------------------------------
+print("=== CLASSES E OBJETOS ===")
+
+class Animal:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def fazer_som(self):
+        print(f"{self.nome} faz um som genérico")
+
+
+animal = Animal("Animal Genérico")
+animal.fazer_som()
+
+
+# ------------------------------------------
+# HERANÇA
+# ------------------------------------------
+print("\n=== HERANÇA ===")
+
+class Cachorro(Animal):
+    def fazer_som(self):
+        print(f"{self.nome} diz: Au Au")
+
+
+class Gato(Animal):
+    def fazer_som(self):
+        print(f"{self.nome} diz: Miau")
+
+
+cachorro = Cachorro("Rex")
+gato = Gato("Mimi")
+
+cachorro.fazer_som()
+gato.fazer_som()
+
+
+# ------------------------------------------
+# POLIMORFISMO
+# ------------------------------------------
+print("\n=== POLIMORFISMO ===")
+
+def fazer_falar(animal):
+    animal.fazer_som()
+
+fazer_falar(cachorro)
+fazer_falar(gato)
+
+
+# ------------------------------------------
+# INTERFACE (CLASSE ABSTRATA)
+# ------------------------------------------
+print("\n=== INTERFACE ===")
+
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
+    @abstractmethod
+    def mover(self):
+        pass
+
+
+class Carro(Veiculo):
+    def mover(self):
+        print("Carro está andando")
+
+
+class Bicicleta(Veiculo):
+    def mover(self):
+        print("Bicicleta está pedalando")
+
+
+carro = Carro()
+bike = Bicicleta()
+
+carro.mover()
+bike.mover()
+
+
+# ------------------------------------------
+# PACOTES (EXPLICAÇÃO)
+# ------------------------------------------
+print("\n=== PACOTES ===")
+print("Pacotes são pastas que organizam arquivos Python.")
+print("Exemplo: from meu_pacote import modulo")
+
+
+# ------------------------------------------
+# FIM
+# ------------------------------------------
+print("\n=== FIM DO PROGRAMA ===")

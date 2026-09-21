@@ -1,0 +1,3 @@
+print("\n=== PACOTES ===")
+print("Pacotes são pastas que organizam arquivos Python.")
+print("Exemplo: from meu_pacote import modulo")

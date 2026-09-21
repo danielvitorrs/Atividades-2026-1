@@ -1,0 +1,7 @@
+print("\n=== POLIMORFISMO ===")
+
+def fazer_falar(animal):
+    animal.fazer_som()
+
+fazer_falar(cachorro)
+fazer_falar(gato)

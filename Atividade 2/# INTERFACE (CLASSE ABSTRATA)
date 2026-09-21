@@ -1,0 +1,25 @@
+print("\n=== INTERFACE ===")
+
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
+    @abstractmethod
+    def mover(self):
+        pass
+
+
+class Carro(Veiculo):
+    def mover(self):
+        print("Carro está andando")
+
+
+class Bicicleta(Veiculo):
+    def mover(self):
+        print("Bicicleta está pedalando")
+
+
+carro = Carro()
+bike = Bicicleta()
+
+carro.mover()
+bike.mover()

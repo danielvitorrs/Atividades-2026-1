@@ -1,0 +1,12 @@
+print("=== CLASSES E OBJETOS ===")
+
+class Animal:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def fazer_som(self):
+        print(f"{self.nome} faz um som genérico")
+
+
+animal = Animal("Animal Genérico")
+animal.fazer_som()
